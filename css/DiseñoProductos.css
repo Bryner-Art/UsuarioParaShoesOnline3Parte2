@@ -1,0 +1,34 @@
+.titulo{
+	margin-top: 75px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+#ace .container{
+	justify-content: center;
+}
+.MarcasNike,.MarcasJordan,.MarcasAdidas{
+	display: inline-block;
+	width: 33%;
+	height: 90%;
+	font-size: 25px;
+	justify-content: center;
+    border: 1px solid black;
+    background: rgba(51,51,51,0.2);
+
+}
+.contenido{
+	display: list-item;
+}
+
+img.logo{
+	width: 100%;
+	height: 150px;	
+}	
+img.logo:hover{
+	opacity: 0.5;
+	transition: all 50%;
+}
+.precios{
+	color: white;
+}
