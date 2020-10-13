@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>MI PAGINA FINAL</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+
+   if(clave1=="admin"&&clave2=="bryner"){
+    alert ("FELICIDADES HAS ENTRADO... \nERES DIGNO DE ENTRAR.");
+    var href ="productos.html";
+    window.location=href;
+   }
+else {
+  alert("LA CONTRASEÑA NO COICIDE...\nINTETALO DE NUEVO ");
+  var href =  "index.html";
+  window.location=href;
+}
+
+    }
+   
+</script>
+
+</head>
+
+<body>
+
+<h1>BIENVENIDO ESCRIBE LOS DATOS PARA INGRESAR</h1>
+<br>
+<h2>ESCRIBE LA CONTRASEÑA CORRECTA SI TE EQUIVOCAS TE AVISARE.</h2>
+<BR>
+
+<form action="" name="f1">
+       <h3>Usuario:</h3> <input type="password" name="clave1" size="20">
+
+<h3>Contraseña:</h3> <input type="password" name="clave2" size="20">
+
+<br>
+<input id="btn" type="button" value="ENTRAR" onClick="comprobarClave()">
+
+
+</form>
+
+</body>
+</html>

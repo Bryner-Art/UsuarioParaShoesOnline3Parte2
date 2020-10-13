@@ -1,0 +1,24 @@
+	.f{
+  margin-top: 75px;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+input{
+	font-size: 20px;
+	padding: 9px;
+	text-align: center;
+}
+form,.registrados{
+	background: rgba(51,51,51,0.9);
+	
+}
+.registrados{
+	color: white;
+	font-size: 45px;
+	text-align: center;
+}
+.datos{
+	color: white;
+	text-align: center;
+}
