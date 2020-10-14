@@ -12,6 +12,9 @@ function itemNuevo(){
 						"<br>"+apellido+
 						"<br>"+email+
 						"<br>"+tel+"</p>";
-
-	alert("Felicidades te has registrado correctamente")
+    document.getElementById("dpi").value="";
+    document.getElementById("nombre").value="";
+    document.getElementById("apellido").value="";
+    document.getElementById("email").value="";
+    document.getElementById("tel").value="";
 }
